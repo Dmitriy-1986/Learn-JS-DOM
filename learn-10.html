@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    article {
+      display: inline-block;
+      background-color: #ccc;
+      max-width: 500px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <article>
+    <h3>Title</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus numquam amet necessitatibus soluta, pariatur
+      temporibus!
+    </p>
+  </article>
+
+  <script>
+    let articleNode = document.querySelector('article');
+
+    let shallowCopy = articleNode.cloneNode('false');
+    let shallowCopyTwo = articleNode.cloneNode('false');
+    let shallowCopyThree = articleNode.cloneNode('false');
+    //let deepCopy = articleNode.cloneNode('true');
+    
+    document.body.append(shallowCopy);
+    document.body.append(shallowCopyTwo);
+    document.body.append(shallowCopyThree);
+
+  </script>
+</body>
+
+</html>
