@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="block">
+    <p class="paragraph" id="deleteElement">Paragraph - 1</p>
+    <p class="paragraph">Paragraph - 2</p>
+    <p class="paragraph">Paragraph - 3</p>
+    <p class="paragraph">Paragraph - 4</p>
+    <p class="paragraph">Paragraph - 5</p>
+  </div>
+
+  <script>
+   let delEl = document.querySelector('#deleteElement');
+    let block = document.querySelector('.block');
+   delEl.remove(); //удаляю id="deleteElement"
+
+   //delEl.closest('.block').remove(); //удаляю по id="deleteElement" родительский блок
+  </script>
+</body>
+
+</html>
