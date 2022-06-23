@@ -17,8 +17,8 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-8.html">Манипуляции с элементами</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-8.html">Code</a><br>
 
-<!--<a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-9.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-9.html">Code</a><br>
-
+<a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-9.html">Удалить элемент методом remove</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-9.html">Code</a><br>
+<!--
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-10.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-10.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-11.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-11.html">Code</a><br>
