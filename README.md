@@ -1,5 +1,6 @@
 <a href="https://dmitriy-1986.github.io/Learn-JS-DOM/">[Learn-JS-DOM]</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM">Code</a>
 <hr>
+
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-1.html">Поиск элемента по атрибуту и применение стилей к ним</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-1.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-2.html">Работа с radio button</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-2.html">Code</a><br>
