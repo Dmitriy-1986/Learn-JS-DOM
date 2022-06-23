@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, illo? Possimus unde facere
+    cupiditate numquam reprehenderit, amet iusto expedita commodi vel architecto, accusamus necessitatibus ea provident
+    obcaecati alias quis eum nisi? Illum non ducimus sit unde suscipit eius necessitatibus ut eaque, laudantium ipsam
+    voluptas voluptate. Placeat voluptates quos molestias voluptatem culpa cum repudiandae natus magni voluptatum rerum
+    quasi sed corrupti quisquam eos consequuntur nostrum ad enim libero accusantium minima impedit autem, dolorum
+    tempore. Ab, beatae eius a id minus ipsam amet quisquam nisi molestiae hic tempore architecto expedita assumenda
+    voluptas omnis et ut, quo inventore error. Itaque, ipsum! Pariatur, est.
+    <div class="buttons-panel">
+      <button>Cancel</button>
+      <button>Close</button>
+    </div>
+  </div>
+
+  <div class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, illo? Possimus unde facere
+    cupiditate numquam reprehenderit, amet iusto expedita commodi vel architecto, accusamus necessitatibus ea provident
+    obcaecati alias quis eum nisi? Illum non ducimus sit unde suscipit eius necessitatibus ut eaque, laudantium ipsam
+    voluptas voluptate. Placeat voluptates quos molestias voluptatem culpa cum repudiandae natus magni voluptatum rerum
+    quasi sed corrupti quisquam eos consequuntur nostrum ad enim libero accusantium minima impedit autem, dolorum
+    tempore. Ab, beatae eius a id minus ipsam amet quisquam nisi molestiae hic tempore architecto expedita assumenda
+    voluptas omnis et ut, quo inventore error. Itaque, ipsum! Pariatur, est.
+    <div class="buttons-panel">
+      <button>Cancel</button>
+      <button id="closeBtn">Close</button>
+    </div>
+  </div>
+
+  <div class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, illo? Possimus unde facere
+    cupiditate numquam reprehenderit, amet iusto expedita commodi vel architecto, accusamus necessitatibus ea provident
+    obcaecati alias quis eum nisi? Illum non ducimus sit unde suscipit eius necessitatibus ut eaque, laudantium ipsam
+    voluptas voluptate. Placeat voluptates quos molestias voluptatem culpa cum repudiandae natus magni voluptatum rerum
+    quasi sed corrupti quisquam eos consequuntur nostrum ad enim libero accusantium minima impedit autem, dolorum
+    tempore. Ab, beatae eius a id minus ipsam amet quisquam nisi molestiae hic tempore architecto expedita assumenda
+    voluptas omnis et ut, quo inventore error. Itaque, ipsum! Pariatur, est.
+    <div class="buttons-panel">
+      <button>Cancel</button>
+      <button>Close</button>
+    </div>
+  </div>
+
+  <script>
+    let btn = document.querySelector('#closeBtn');
+    let closestBlock = btn.closest('.block');
+    closestBlock.style.border = '2px solid tomato';
+
+    btn.addEventListener('click', () => {
+      closestBlock.style.display = 'none';
+    })
+  </script>
+</body>
+
+</html>

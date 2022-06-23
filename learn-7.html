@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      background-color: lightblue;
+      padding: 8px;
+      margin: 8px;
+    }
+
+    p {
+      background-color: coral;
+      padding: 8px;
+      margin: 8px;
+    }
+  </style>
+</head>
+<body>
+  <p id="test">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, assumenda.</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, assumenda.</p>
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam.</div>
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam.</div>
+
+  <script>
+    let node = document.querySelector('#test');
+    node.outerHTML = "<div>Hello world!</div>";
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  Результат: <span id="output"></span>
+
+  <script>
+    let x = prompt("Введите первое число");
+    let y = prompt("Введите второе число");
+    let result;
+    let outputDiv = document.querySelector('#output');
+
+    if (y != 0) {
+      result = x / y;
+      outputDiv.innerHTML = `<b>${result}</b>`;
+    } else if (y == null || y == '' || x == null || x == '') {
+      outputDiv.innerHTML = `<b style="color: red;">Введите число</b>`;
+    } else {
+      outputDiv.innerHTML = `<b style="color: red;">Деление на 0</b>`;
+    }
+  </script>
+</body>
+
+</html>

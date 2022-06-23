@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p><i>Hello</i> world!</p>
+
+  <script>
+    let node = document.querySelector('p');
+
+    console.log('node type - ' + node.nodeType); //Тип узла
+    console.log('inner html - ' + node.innerHTML); //Содержимое узла
+    console.log('outer html - ' + node.outerHTML); //Содержимое узла и сам узел
+    console.log('text content - ' + node.textContent); //Содержимое узла как текст
+    console.log('hidden - ' + node.hidden); //Видимость узла
+  </script>
+</body>
+</html>
