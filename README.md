@@ -1,6 +1,6 @@
 <a href="https://dmitriy-1986.github.io/Learn-JS-DOM/">[Learn-JS-DOM]</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM">Code</a>
 <hr>
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-1.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-1.html">Code</a>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-1.html">Поиск элемента по атрибуту и применение стилей к ним</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-1.html">Code</a>
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-2.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-2.html">Code</a>
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-3.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-3.html">Code</a>
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-4.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-4.html">Code</a>
