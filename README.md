@@ -9,13 +9,13 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-4.html">В консоли получаем информацию об элементах</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-4.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-5.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-5.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-5.html">Prompt and breake</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-5.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-6.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-6.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-6.html">Prompt</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-6.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-7.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-7.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-7.html">Замена элемента и содержимого</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-7.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-8.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-8.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-8.html">Манипуляции с элементами</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-8.html">Code</a><br>
 
 <!--<a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-9.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-9.html">Code</a><br>
 
