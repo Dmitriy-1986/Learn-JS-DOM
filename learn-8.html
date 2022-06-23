@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="block">
+    <p class="paragraph">Paragraph - 1</p>
+    <p class="paragraph">Paragraph - 2</p>
+    <p class="paragraph">Paragraph - 3</p>
+    <p class="paragraph">Paragraph - 4</p>
+    <p class="paragraph">Paragraph - 5</p>
+  </div>
+
+  <script>
+    let beforeParagraph = document.createElement('p');
+    let afterParagraph = document.createElement('p');
+
+    let prependDiv = document.createElement('div');
+    let appendDiv = document.createElement('div');
+
+    beforeParagraph.innerHTML = 'Before paragraph'.fontcolor('green');
+    afterParagraph.innerHTML = 'After paragraph'.fontcolor('green');
+
+    prependDiv.innerHTML = 'Prepend div'.fontcolor('blue');
+    appendDiv.innerHTML = 'Append div'.fontcolor('blue');
+
+    let block = document.querySelector('.block');
+    let paragraph = document.querySelectorAll('paragraph');
+
+    block.after(afterParagraph);
+    block.before(beforeParagraph);
+    block.prepend(prependDiv);
+    block.append(appendDiv);
+
+    /*
+      node.append(узел) - внутри родительского блока вставляет в конец списка елементов
+      node.prepend(узел) - внутри родительского блока вставляет в начало списка елементов
+      node.before(узел) - вставляет перед родительским блоком
+      node.after(узел) - вставляет после родительского блока
+    */
+  </script>
+</body>
+
+</html>
