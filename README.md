@@ -23,42 +23,42 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-11.html">11-Работа с data атрибутами</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-11.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-12.html">Продолжение работы с пользовательским атрибутом data</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-12.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-12.html">12-Продолжение работы с пользовательским атрибутом data</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-12.html">Code</a><br>
 <!--
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-13.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-13.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-13.html">13-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-13.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-14.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-14.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-14.html">14-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-14.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-15.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-15.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-15.html">15-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-15.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-16.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-16.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-16.html">16-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-16.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-17.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-17.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-17.html">17-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-17.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-18.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-18.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-18.html">18-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-18.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-19.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-19.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-19.html">19-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-19.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-20.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-20.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-20.html">20-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-20.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-21.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-21.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-21.html">21-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-21.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-22.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-22.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-22.html">22-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-22.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-23.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-23.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-23.html">23-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-23.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-24.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-24.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-24.html">24-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-24.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-25.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-25.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-25.html">25-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-25.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-26.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-26.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-26.html">26-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-26.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-27.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-27.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-27.html">27-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-27.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-28.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-28.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-28.html">28-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-28.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-29.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-29.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-29.html">29-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-29.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-30.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-30.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-30.html">30-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-30.html">Code</a><br>
 
 -->
