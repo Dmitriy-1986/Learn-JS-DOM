@@ -24,9 +24,9 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-11.html">11-Работа с data атрибутами</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-11.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-12.html">12-Продолжение работы с пользовательским атрибутом data</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-12.html">Code</a><br>
-<!--
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-13.html">13-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-13.html">Code</a><br>
 
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-13.html">13-Проработка методов classList </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-13.html">Code</a><br>
+<!--
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-14.html">14-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-14.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-15.html">15-</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-15.html">Code</a><br>
