@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {box-sizing: border-box;}
+
+    .add {padding: 10px; border: 1px solid grey; border-radius: 5px; margin: 5px;}
+
+    .remove {padding: 10px; border: 1px solid grey; border-radius: 5px; margin: 5px;}
+
+    .toggle {padding: 10px; border: 1px solid grey; border-radius: 5px; margin: 5px;}
+
+    .contains {padding: 10px; border: 1px solid grey; border-radius: 5px; margin: 5px;}
+
+    .active {background-color: orange;}
+  </style>
+</head>
+<body>
+  <div class="add">Class List Add</div> 
+  <div class="remove active">Class List Remove</div>
+  <div class="toggle">Class List Toggle</div>
+  <div class="contains">Class List Contains</div>
+
+  <script>
+     let addCl = document.querySelector('.add');
+     let removeCl = document.querySelector('.remove');
+     let toggleCl = document.querySelector('.toggle');
+     let containsCl = document.querySelector('.contains');
+
+     addCl.addEventListener('click', () => {
+      addCl.classList.add('active');
+     });
+
+     removeCl.addEventListener('click', () => {
+       removeCl.classList.remove('active');
+     });
+
+     toggleCl.addEventListener('click', () => {
+       toggleCl.classList.toggle('active');
+     });
+
+     containsCl.addEventListener('click', () => {
+       let containsVar = containsCl.classList.contains('active');
+       if(containsVar) {
+         alert('Класс active имееться в блоке и будет удален!');
+         containsCl.classList.remove('active');
+       } else {
+        alert('Класса active нет в блоке, но будет добавлен!');
+        containsCl.classList.add('active');
+       };
+     });
+  </script>
+</body>
+</html>
