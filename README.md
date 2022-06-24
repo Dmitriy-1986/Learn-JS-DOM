@@ -22,9 +22,9 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-10.html">10-Клонируем элемент методом cloneNode</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-10.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-11.html">11-Работа с data атрибутами</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-11.html">Code</a><br>
-<!--
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-12.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-12.html">Code</a><br>
 
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-12.html">Продолжение работы с пользовательским атрибутом data</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-12.html">Code</a><br>
+<!--
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-13.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-13.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-14.html"></a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-14.html">Code</a><br>
