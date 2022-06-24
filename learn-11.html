@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .person-data[data-person="Ubaldo-Thomas"] {
+      background-color: lightseagreen;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="block"></div>
+
+  <script>
+    const personData = [
+      {name: 'John', surname: 'Doe', age: 35},
+      {name: 'Ubaldo', surname: 'Thomas', age: 34},
+      {name: 'Will', surname: 'Brown', age: 33},
+      {name: 'Santiago', surname: 'Hill', age: 32},
+      {name: 'Vinson', surname: 'Powell', age: 31},
+      {name: 'Manuel', surname: 'Martinez', age: 30},
+    ];
+
+    let block = document.querySelector('.block');
+    let ul = document.createElement('ul');
+    block.append(ul);
+
+    for (let i = 0; i < personData.length; i++) {
+      let li = document.createElement('li');
+      li.className = 'person-data';
+      li.setAttribute('data-person', `${personData[i].name}-${personData[i].surname}`);
+      li.innerHTML = `<p><i>name: </i><b>${personData[i].name}</b></p>
+                      <p><i>surname: </i><b>${personData[i].surname}</b></p>
+                      <p><i>age: </i><b>${personData[i].age}</b></p>`;
+      ul.append(li);
+    }
+  </script>
+</body>
+
+</html>
