@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .element {
+      padding: 10px;
+      background-color: grey;
+      border: 3px solid violet;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Получение значений свойств стиля элемента</h1>
+  <div class="element">Element</div>
+  <div class="block">
+    <h2>Стили блока Element</h2>
+  </div>
+
+  <script>
+    let block = document.querySelector('.block');
+    let el = document.querySelector('.element');
+
+    block.innerHTML += '.element {<br>';
+    block.innerHTML +=  stylesElement(el, 'padding');
+    block.innerHTML +=  stylesElement(el, 'background-color');
+    block.innerHTML +=  stylesElement(el, 'border');
+    block.innerHTML +=  stylesElement(el, 'color');
+    block.innerHTML += '}';
+
+    function stylesElement(element, property) {
+      let j = window.getComputedStyle(element, null).getPropertyValue(property);
+      for (key of j) {
+        let k = '&nbsp;&nbsp;&nbsp;&nbsp;' + property + ': ' + j + ' ; <br>';
+        return k;
+      }
+    }
+  </script>
+</body>
+
+</html>
