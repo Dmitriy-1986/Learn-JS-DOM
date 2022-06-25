@@ -34,4 +34,4 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-16.html">16-Удаление обработчика события Click на кнопке  </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-16.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-16.html">17-To do list  </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-16.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-17.html">17-To do list  </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-17.html">Code</a><br>
