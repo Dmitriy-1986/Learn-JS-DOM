@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 500px 170px;
+      align-items: center;
+    }
+
+    /* .block {
+      padding: 10px;
+    } */
+
+    .green {
+      background-color: green;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .input {
+      width: 500px;
+      padding: 8px;
+      font-size: 34px;
+    }
+
+    .input-button {
+      width: 170px;
+      padding: 18px 0 19px 0;
+      font-size: 16px;
+    }
+
+    /* Tasc list */
+    .input-checkbox {
+      border: 1px solid red;
+    }
+
+    .task p {
+      display: inline-block;
+      font-size: 45px;
+      margin: 10px 0 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="block green">
+      <!-- Input text -->
+      <input type="text" class="input">
+    </div>
+    <div class="block red">
+      <!-- Input button -->
+      <input type="button" value="Добавить закладку" class="input-button">
+    </div>
+  </div>
+  <hr>
+  <!-- Task list -->
+  <div class="task-list">
+    <div class="task">
+      <input type="checkbox" class="input-checkbox">
+      <p>JavaScript</p>
+    </div>
+  </div>
+
+  <script>
+    let inputText = document.querySelector('.input');
+    let inputButton = document.querySelector('.input-button');
+    let taskList = document.querySelector('.task-list');
+
+    inputButton.addEventListener('click', addTask);
+
+    function createTask(text) {
+      let div = document.createElement('div');
+      div.classList.add('task');
+
+      let inputCheckbox = document.createElement('input');
+      inputCheckbox.type = 'checkbox';
+
+      let paragraph = document.createElement('p');
+      paragraph.textContent = text;
+
+      div.append(inputCheckbox);
+      div.append(paragraph);
+
+      return div;
+    }
+
+    function addTask() {
+      let newTask = createTask(inputText.value);
+      taskList.append(newTask);
+      inputText.value = '';
+    }
+  </script>
+</body>
+
+</html>
