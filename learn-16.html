@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Удалить обработчик событий removeEventListener()</h2>
+  <button id="testBtn">Click Me!</button>
+  <button id="removeHandlerBtn">Удалить обработчик события с кнопки Click Me!</button>
+
+  <script>
+
+    let testBtn = document.querySelector('#testBtn');
+    let removeHandlerBtn = document.querySelector('#removeHandlerBtn');
+
+    function handler() {
+      alert('Обработчик события кнопки Click Me!!');
+    }
+
+    testBtn.addEventListener('click', handler);
+
+    removeHandlerBtn.addEventListener('click', () => {
+      testBtn.removeEventListener('click', handler);
+    });
+
+  </script>
+</body>
+</html>
