@@ -37,3 +37,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-17.html">17-To do list  </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-17.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-18.html">18-Работаю с this  </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-18.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-19.html">19-Свойство hidden && Работаю с this  </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-19.html">Code</a><br>
