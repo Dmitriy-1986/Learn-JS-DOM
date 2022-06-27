@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="output"></div>
+
+<script>
+let output = document.querySelector('#output');
+
+document.addEventListener('keydown', (e) => {
+    let message = `keydown (Code = ${e.code}, Key = ${e.key})`;
+    output.innerHTML = message;
+});
+
+document.addEventListener('keyup', (e) => {
+    let message = `keyup (Code = ${e.code}, Key = ${e.key})`;
+    output.innerHTML = message;
+});
+</script>
+</body>
+</html>
