@@ -42,5 +42,6 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-20.html">20-JS события координат мыши в квадрате  </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-20.html">Code</a><br>
 
-
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-21.html">21-Устанавливаем обработчик на лист меню и по data атрибуту вызываем его  </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-21.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-22.html">22-События на клавиатуре keydown - keyup</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-22.html">Code</a><br>
