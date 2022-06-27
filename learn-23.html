@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .rect {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            color: white;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+<div id="testDiv" class="rect"></div>
+
+<script>
+    let div = document.querySelector('#testDiv');
+    let move = false;
+    let offsetX, offsetY;
+
+    //При нажатии на div запоминает отступ от курсора до левого края
+    div.addEventListener('mousedown', (e) => {
+       move = true;
+       offsetX = e.offsetX;
+       offsetY = e.offsetY;
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if(move) {
+            div.style.top = e.clientY - offsetY + 'px';
+            div.style.left = e.clientX - offsetX + 'px';
+        }
+    });
+
+    //В момент когда клавиша отпускается прекращаем перемещение div
+    document.addEventListener('mouseup', (e) => {
+        move = false;
+    })
+</script>
+</body>
+</html>
