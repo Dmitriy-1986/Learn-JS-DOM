@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #element {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<div id="element"></div>
+<script>
+    let div = document.querySelector('#element');
+    let distance = 10;
+
+    document.addEventListener('keydown', (e) => {
+        switch (e.code) {
+            case 'ArrowLeft':
+                moveLeft(div, distance);
+                break;
+            case 'ArrowRight':
+                moveRight(div, distance);
+                break;
+            case 'ArrowUp':
+                moveUp(div, distance);
+                break;
+            case 'ArrowDown':
+                moveDown(div, distance);
+                break;
+        }
+    });
+
+    function moveUp(element, distance) {
+        let top = getComputedStyle(element).top;
+        element.style.top = parseInt(top) - distance + 'px';
+    }
+
+    function moveDown(element, distance) {
+        let top = getComputedStyle(element).top;
+        element.style.top = parseInt(top) + distance + 'px';
+    }
+
+    function moveLeft(element, distance) {
+        let left = getComputedStyle(element).left;
+        element.style.left = parseInt(left) - distance + 'px';
+    }
+
+    function moveRight(element, distance) {
+        let left = getComputedStyle(element).right;
+        element.style.left = parseInt(left) + distance + 'px';
+    }
+</script>
+</body>
+</html>
