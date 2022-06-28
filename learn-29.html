@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<button id="btnClick">Click Me!</button>
+<button id="btnClickHidden">Click Me Hidden!</button>
+
+<template id="template">
+    <p>
+        Hello world!
+    </p>
+</template>
+
+<script>
+    //template html
+    let template = document.querySelector('#template');
+    let templateContent = template.content;
+    let viewTemplateCont = templateContent.cloneNode(true);
+    document.body.append(viewTemplateCont);
+
+    // template to click
+    let templateClick = document.createElement('template');
+    templateClick.innerHTML = `<p class="p">Hello world from template!</p>`;
+
+    let btnClick = document.querySelector('#btnClick');
+    let templateClone = templateClick.content.cloneNode(true);
+    btnClick.addEventListener('click', (event) => {
+        document.body.appendChild(templateClone);
+        btnClick.hidden = true;
+    })
+
+    let btnClickHidden = document.querySelector('#btnClickHidden');
+    btnClickHidden.addEventListener('click', () => {
+        document.querySelector('.p').hidden = true;
+        btnClickHidden.hidden = true;
+    })
+
+</script>
+
+</body>
+</html>
