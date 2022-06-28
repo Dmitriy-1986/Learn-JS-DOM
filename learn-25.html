@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        div {
+            border: 2px solid green;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="div1">
+    div 1
+</div>
+
+<script>
+    let div1 = document.querySelector('#div1');
+
+    div1.addEventListener('click', btnClick);
+
+    function btnClick() {
+        alert('click: - ' + this.id);
+    }
+
+</script>
+</body>
+</html>
