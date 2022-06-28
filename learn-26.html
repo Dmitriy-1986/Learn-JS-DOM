@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid green;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .stop-propagation {
+            border: 2px solid grey;
+        }
+    </style>
+</head>
+<body>
+
+<div id="div1">
+    div 1
+    <div id="div2">
+        div 2
+        <div id="div3">
+            div 3
+        </div>
+    </div>
+</div>
+<hr>
+
+<!--stopPropagation()-->
+<div id="div4" class="stop-propagation">
+    div 4
+    <div id="div5" class="stop-propagation">
+        div 5
+        <div id="div6" class="stop-propagation">
+            div 6
+        </div>
+    </div>
+</div>
+
+<script>
+    let div1 = document.querySelector('#div1');
+    let div2 = document.querySelector('#div2');
+    let div3 = document.querySelector('#div3');
+
+    div1.addEventListener('click', btnClick);
+    div2.addEventListener('click', btnClick);
+    div3.addEventListener('click', btnClick);
+
+    function btnClick() {
+        alert('click: - this.id: - ' + this.id);
+    }
+
+    //stopPropagation()
+    let div4 = document.querySelector('#div4');
+    let div5 = document.querySelector('#div5');
+    let div6 = document.querySelector('#div6');
+
+    div4.addEventListener('click', btnClickStop);
+    div5.addEventListener('click', btnClickStop);
+    div6.addEventListener('click', btnClickStop);
+
+    function btnClickStop(event) {
+        alert('this.id - ' + this.id + ' | event.target.id: -' + event.target.id);
+
+        if (this.id) {
+            event.stopPropagation();
+        }
+
+    }
+</script>
+
+</body>
+</html>
