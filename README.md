@@ -59,3 +59,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-28.html">28-HTML - CSS - цитата в таблице</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-28.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-29.html">29-template - добавление шаблона на страницу </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-29.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-30html">30-Mustache.min.js - создание шаблонов</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-30html">Code</a><br>
