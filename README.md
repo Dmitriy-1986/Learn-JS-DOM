@@ -53,3 +53,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-25.html">25-this.id - получаем элемент по его id</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-25.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-26.html">26-stopPropagation() - остановить событие по DOM дереву </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-26.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-27.html">27-preventDefault - остановить действие браузера которое заложено в событие </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-27.html">Code</a><br>
