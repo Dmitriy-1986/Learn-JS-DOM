@@ -63,3 +63,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-30.html">30-Mustache.min.js - создание шаблонов</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-30.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-31.html">31-Вывод данных объекта методом insertAdjacentHTML()</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-31.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-32.html">32-JS - как пользоваться прототипом - prototype в конструкторе</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-32.html">Code</a><br>
