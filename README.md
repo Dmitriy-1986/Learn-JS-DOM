@@ -49,3 +49,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-23.html">23-Перемещение блока по нажатому клику мыши</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-23.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-24.html">24-Перемещение блока по нажатому клику стрелок клавиатуры</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-24.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-25.html">25-this.id - получаем элемент по его id/a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-25.html">Code</a><br>
