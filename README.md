@@ -57,3 +57,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-27.html">27-preventDefault - остановить действие браузера которое заложено в событие </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-27.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-28.html">28-HTML - CSS - цитата в таблице</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-28.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-29.html">29-template - добавление шаблона на страницу </a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-29.html">Code</a><br>
