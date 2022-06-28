@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div id="placeholder"></div>
+<script>
+let car = {
+    image: 'audi-a6-250.jpg',
+    manufacturer: 'Audi',
+    model: 'A6',
+    year: '2011',
+    VIN: 'ABC12345678910111',
 
+    showStatus: function (element) {
+        element.insertAdjacentHTML('beforeend', `<img src='images/${this.image}'><br>`);
+        element.insertAdjacentHTML('beforeend', `Производитель: ${this.manufacturer}<br>`);
+        element.insertAdjacentHTML('beforeend', `Модель: ${this.model}<br>`);
+        element.insertAdjacentHTML('beforeend', `Год выпуска: ${this.year}<br>`);
+        element.insertAdjacentHTML('beforeend', `VIN: ${this.VIN}<br>`);
+    }
+};
+
+let placeholder = document.querySelector('#placeholder');
+car.showStatus(placeholder);
+</script>
+</body>
+</html>
