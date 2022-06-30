@@ -66,4 +66,4 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-32.html">32-JS - как пользоваться прототипом - prototype в конструкторе</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-32.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-33.html">33-JS - class Rect {constructor() {} и методы прототипы}</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-33.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-33.html">33-JS - Классы - class Rect {constructor() {} и методы прототипы}</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-33.html">Code</a><br>
