@@ -13,7 +13,8 @@
     let str, strType;
 
     str = 'abcdeghijklmnopqrstuvwxyz'
-    str = function () {};
+    str = function () {
+    };
     str = true;
     str = null;
     str = 123n;
@@ -22,46 +23,50 @@
 
     if (typeof str === 'string') {
         strType = 'its js type: - its String!';
-        document.body.append(strType);
+        docWrite(strType);
         console.log(strType);
 
     } else if (typeof str === 'number') {
         strType = 'its js type: - its Number!';
-        document.body.append(strType);
+        docWrite(strType);
         console.log(strType);
 
     } else if (typeof str === 'object') {
         strType = 'its js type: - its Object!';
-        document.body.append(strType);
+        docWrite(strType);
         console.log(strType); //console.log(typeof null);
 
     } else if (typeof str === 'undefined') {
         strType = 'its js type: - its Undefined!';
-        document.body.append(strType);
+        docWrite(strType);
         console.log(strType); //console.log(typeof undefined);
 
     } else if (typeof str === 'symbol') {
         strType = 'its js type: - its Symbol!';
-        document.body.append(strType);
+        docWrite(strType);
         console.log(strType); //console.log(typeof Symbol());
 
     } else if (typeof str === 'bigint') {
         strType = 'its js type: - its Bigint!';
-        document.body.append(strType);
+        docWrite(strType);
         console.log(strType); //const bigInt = 1234567890123456789012345678901234567890n; console.log(typeof bigInt);
 
     } else if (typeof str === 'boolean') {
         strType = 'its js type: - its Boolean!';
-        document.body.append(strType);
+        docWrite(strType);
         console.log(strType); //console.log(typeof true);
 
     } else if (typeof str === 'function') {
         strType = 'its js type: - its Function!';
-        document.body.append(strType);
+        docWrite(strType);
         console.log(strType); //console.log(typeof function(){});
 
     } else {
         console.log('don\'t type!');
+    }
+
+    function docWrite(e) {
+        document.body.append(e);
     }
 
 </script>
