@@ -1,1 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<h1>Классы</h1>
+<div id="app"></div>
 
+<script>
+    const app = document.querySelector('#app')
+    let p = document.createElement('p');
+    app.append(p);
+
+    //Определение класса
+    class Rect {
+        //Конструктор инициализирует экземпляр класса и представляет собой обычную функцию
+        constructor(width, height) {
+            this.width = width; //свойство
+            this.height = height;
+        }
+
+        // Метод будет добавлен в прототип Rect.prototype
+        getArea() {
+            return this.height * this.width;
+        }
+
+        getPerimeter() {
+            return this.height * 2 * this.width * 2;
+        }
+    }
+
+    let r1 = new Rect(10, 20);
+    let r2 = new Rect(15, 9);
+
+    p.innerHTML = '<i>r1 area:</i> ' + r1.getArea() + '<br>';
+    p.innerHTML += '<i>r1 perimeter:</i> ' + r1.getPerimeter() + '<br><br>';
+
+    p.innerHTML += '<i>r2  area: </i> ' + r2.getArea() + '<br>';
+    p.innerHTML += '<i>r2 perimeter: </i> ' + r2.getPerimeter() + '<br>';
+
+</script>
+</body>
+</html>
