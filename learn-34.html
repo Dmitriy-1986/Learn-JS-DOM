@@ -1,1 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
 
+<script>
+    //Класс с закрытым свойством name которое можно использовать только в классе
+    class User {
+        #name = "";
+
+        constructor(name) {
+            this.#name = name; // закрытое поле можно поменять только в классе
+        }
+
+        getName() {
+            return this.#name; //закрытое значение поля можно прочесть только в поле класса
+        }
+    }
+
+    let u = new User('Dima');
+    document.body.insertAdjacentHTML('beforeend', `${u.getName()}`);
+</script>
+
+</body>
+</html>
