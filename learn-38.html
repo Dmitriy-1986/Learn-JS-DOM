@@ -1,1 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>ключевое слово super();</h1>
+<script>
+    class BaseClass {
+        method1() {
+            console.log('Method one');
+        }
+    }
 
+    class DerivedClass extends BaseClass {
+        constructor(value) {
+            super();
+            this.derivedClassProperty = value;
+        }
+        method2() {
+            console.log('Method from DerivedClass - ' + this.derivedClassProperty);
+        }
+    }
+
+    let obj1 = new BaseClass();
+    let obj2 = new DerivedClass(10);
+
+    obj1.method1();
+    obj2.method1();
+    obj2.method2();
+</script>
+</body>
+</html>
