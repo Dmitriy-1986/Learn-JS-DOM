@@ -72,4 +72,6 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-35.html">35-Условие которое проверяет тип данных JS</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-35.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-36.html">36-Класс JS описівающий меня</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-36.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-36.html">36-Класс JS описывающий меня</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-36.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-37.html">37-Наследование класса JS</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-37.html">Code</a><br>
