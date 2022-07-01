@@ -1,1 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Наследование</h1>
+<script>
+    // основной класс животное
+    class Animal {
+        eat() {
+            let eat = 'Животное ест! ';
+            document.write('<br> *** <br>' + eat + '<br>');
+            console.log('Животное ест!');
+        };
 
+        sleep() {
+            let sleep = 'Животное спит.';
+            document.write(sleep + '<br>');
+            console.log('Животное спит ');
+        }
+    }
+
+    // класс собаки - наследован от класса животное
+    class Dog extends Animal {
+        eat() {
+            let eat = 'Собака ест мясо.';
+            document.write('*** <br>' + eat + '<br>');
+            console.log('***\nСобака ест мясо.');
+        }
+    }
+
+    // класс корова - наследован от класса животное
+    class Cow extends Animal {
+        eat() {
+            let eat = 'Корова ест траву.';
+            document.write('*** <br>' + eat + '<br>');
+            console.log('***\nКорова ест траву.');
+        }
+    }
+
+    let dog = new Dog();
+    let cow = new Cow();
+
+    dog.eat();
+    dog.sleep();
+
+    cow.eat();
+    cow.sleep();
+
+</script>
+</body>
+</html>
