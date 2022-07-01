@@ -1,1 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>MyClass {}</h1>
 
+<script>
+    class MyClass {
+        #myName;
+        #mySurname;
+        #myBirthDay;
+        constructor(name, surname, birthday) {
+            this.#myName = name;
+            this.#mySurname = surname;
+            this.#myBirthDay = birthday;
+        }
+
+        get Name() {
+            return this.#myName;
+        }
+
+        get Surname() {
+            return this.#mySurname;
+        }
+
+        get Birthday() {
+            return this.#myBirthDay;
+        }
+
+        set Name(value) {
+            this.#myName = value;
+        }
+
+        set Surname(value) {
+            this.#mySurname = value;
+        }
+
+        set Birthday(value) {
+            this.#myBirthDay = value;
+        }
+    }
+
+    let i = new MyClass('Dima', 'Dovgal', '11.09.1986');
+    // i.Name = 'Dima';
+    // i.Surname = 'Dovgal';
+    // i.Birthday = '11.09.1986';
+    document.body.append(i.Name + ' ' + i.Surname + ', ' + i.Birthday);
+</script>
+</body>
+</html>
