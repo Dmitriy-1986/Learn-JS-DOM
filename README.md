@@ -79,3 +79,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-38.html">38-super() - в конструкторе класса JS</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-38.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-39.html">39-this - контекст выполнения кода  JS</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-39.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-40.html">40-Функция JS запускаемая сразу после объявления</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-40.html">Code</a><br>
