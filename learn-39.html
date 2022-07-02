@@ -1,1 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+let print = function () {
+    console.log(this);
+}
+print();
 
+let user1 = {
+    login: 'admin',
+    email: 'admin@example.com',
+    print: function () {
+        document.body.innerHTML = this.login + ' ' + this.email;
+        console.log(this);
+    }
+}
+user1.print();
+
+</script>
+</body>
+</html>
