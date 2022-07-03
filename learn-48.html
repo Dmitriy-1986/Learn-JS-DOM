@@ -1,1 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+Выберите валюту:
+<form>
+    <select name="currency">
+        <option value="USD">US Dollar</option>
+        <option value="UAH" selected>Ukrainian Hryvnia</option>
+        <option value="EUR">Euro</option>
+    </select>
+</form>
+<br>
+<button id="checkButton">Проверить значение</button>
+<hr>
+<div id="result"></div>
 
+<script>
+    const form = document.forms[0];
+    let result = document.querySelector('#result');
+
+    document.querySelector('#checkButton').addEventListener('click', function () {
+        result.innerHTML = form.currency.value;
+    })
+</script>
+</body>
+</html>
