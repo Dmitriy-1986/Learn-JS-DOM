@@ -1,1 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="#" name="testform">
+    <input type="number" name="" id="inputNumber">
+    <span id="inNumType"></span>
+    <br><br>
 
+    <textarea name="commentTextArea" cols="30" rows="10">Поле для комментария</textarea>
+</form>
+
+<button id="check">Проверить значение textarea</button>
+<hr>
+<div id="txtArea"></div>
+<script>
+    let formTest = document.forms.testform;
+
+    let inputNumber = document.querySelector('#inputNumber').type;
+    let inNumType = document.querySelector('#inNumType');
+    inNumType.innerHTML = 'input type: ' + inputNumber;
+
+    document.querySelector('#check').addEventListener('click', () => {
+        let commentTextArea = formTest.elements.commentTextArea;
+        let txtArea = document.querySelector('#txtArea');
+        txtArea.innerHTML = commentTextArea.value + ' | ';
+        txtArea.innerHTML += commentTextArea.innerHTML;
+    });
+</script>
+</body>
+</html>
