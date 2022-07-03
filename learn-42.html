@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .form-grop {
+            margin: 5px;
+        }
+
+        .form-grop label {
+            display: inline-block;
+            width: 75px;
+        }
+
+        .data-forms {
+            cursor: pointer;
+            color: #0000a8;
+        }
+
+        .data-forms:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<form action="#" name="loginForm" method="post">
+    <div class="form-grop">
+        <label for="loginInput">Login</label>
+        <input type="text" name="loginInput" id="loginInput">
+    </div>
+    <div class="form-grop">
+        <label for="passwordInput">Password</label>
+        <input type="password" name="passwordInput" id="passwordInput">
+    </div>
+<!--    <div class="form-grop">-->
+<!--        <input type="submit" value="Вход">-->
+<!--    </div>-->
+    <span id="checkFormButton" class="data-forms">Получить все данные формы</span>
+</form>
+
+<script>
+    let form1 = document.forms.loginForm;
+
+    document.querySelector('#checkFormButton').addEventListener('click', function () {
+        for (let i = 0; i < form1.elements.length; i++) {
+            const element = form1.elements[i];
+            console.log(element.name + " = " + element.value);
+            //данные проверки выводяться по клику на сслыку а не на кнопку!
+        }
+    });
+</script>
+</body>
+</html>
