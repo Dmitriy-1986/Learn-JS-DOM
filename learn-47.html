@@ -1,1 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h2>Проверка значения radio button & checkbox</h2>
+<form>
+    Выберите валюту: <br>
+    USD: <input type="radio" name="currency" value="USD" checked><br>
+    UAH: <input type="radio" name="currency" value="UAH"><br>
+    EUR: <input type="radio" name="currency" value="EUR"><br>
+    Согласен с условиями использования: <input type="checkbox" name="termsAccepted">
+</form>
+<button id="checkButton">Проверить значение</button>
+<hr>
+<div id="inData"></div>
+<script>
+    const form = document.forms[0];
+    let inData = document.querySelector('#inData');
+    document.querySelector('#checkButton').addEventListener('click', function() {
 
+        if(form.termsAccepted.checked) {
+            inData.innerHTML = 'Согласен с условиями<br>';
+        } else {
+            inData.innerHTML = 'Не согласен с условиями<br>';
+        }
+
+        inData.innerHTML += 'Выбранная валюта: ' + form.currency.value;
+    })
+</script>
+</body>
+</html>
