@@ -1,1 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h2>Элементы управления для работы с датой</h2>
+<form>
+    date <input type="date" name="inputDate" id="inputDate"><br><br>
+    time <input type="time" name="inputTime" id="inputTime"><br><br>
+    week <input type="week" name="inputWeek" id="inputWeek"><br><br>
+</form>
 
+<button id="check">Check</button>
+<div id="result"></div>
+<script>
+document.querySelector('#check').addEventListener('click', function () {
+    const form = document.forms[0];
+    let result = document.querySelector('#result');
+    result.innerHTML = 'Дата выбранная пользователем: ' + form.inputDate.value + '<br>';
+    result.innerHTML += 'Время выбранное пользователем: ' + form.inputTime.value + '<br>';
+    result.innerHTML += 'Неделя выбранная пользователем: ' + form.inputWeek.value + '<br>';
+})
+</script>
+</body>
+</html>
