@@ -91,3 +91,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-44.html">44-По клику меняю тип атрибута с password на text и наоборот</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-44.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-45.html">45-Textarea  и  JS: innerHTML, value</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-45.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-46.html">46-Элементы управления для работы с датой</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-46.html">Code</a><br>
