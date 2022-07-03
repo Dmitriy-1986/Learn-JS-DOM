@@ -1,1 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="#" name="formPassword">
+    <input type="password" name="password" id="inputPassword">
+    <span id="passwordView">По клику смотрим пароль</span>
+</form>
+<script>
+    document.querySelector('#passwordView').addEventListener('click', () => {
+        let inputPassword = document.querySelector('#inputPassword');
+        inputPassword.setAttribute('type', 'text');
+        document.querySelector('#passwordView').innerHTML = 'Скрыть пароль';
 
+        document.querySelector('#passwordView').addEventListener('click', () => {
+            inputPassword.setAttribute('type', 'password');
+            document.querySelector('#passwordView').innerHTML = '';
+        })
+    })
+</script>
+</body>
+</html>
