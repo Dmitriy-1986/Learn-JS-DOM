@@ -97,3 +97,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-47.html">47-Проверка значения radio button & checkbox</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-47.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-48.html">48-Проверка значения select, option</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-48.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-49.html">49-Отмена отправки формы preventDefault()</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-49.html">Code</a><br>
