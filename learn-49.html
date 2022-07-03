@@ -1,1 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h2>Отмена отправки формы preventDefault()</h2>
 
+<form action="https://itvdn.com/ru/catalog" method="get">
+    <div>
+        <label>Запрос</label>
+        <input type="text" name="search">
+    </div>
+    <div>
+        <input type="submit" value="Поиск">
+    </div>
+</form>
+
+<script>
+    const form = document.forms[0];
+    form.addEventListener('submit', (e) => {
+        if (form.search.value.length == 0) {
+            alert('Вы не ввели данные в поле ввода');
+            e.preventDefault();
+        } else {
+            alert('Вы ввели в поле ввода: ' + form.search.value);
+        }
+    });
+</script>
+</body>
+</html>
