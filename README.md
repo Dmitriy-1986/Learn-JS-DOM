@@ -84,7 +84,7 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-41.html">41-Создание счетчика инкремент для списка с нумерацией</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-41.html">Code</a><br>
 
-><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-42.html">42-Получить все данные формы по клику</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-42.html">Code</a><br>
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-42.html">42-Получить все данные по циклу из формы по клику</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-42.html">Code</a><br>
 
-
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-43.html">43-Получить все данные по отдельному элементу из формы по клику</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-43.html">Code</a><br>
 
