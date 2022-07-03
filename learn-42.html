@@ -40,20 +40,23 @@
         <label for="passwordInput">Password</label>
         <input type="password" name="passwordInput" id="passwordInput">
     </div>
-<!--    <div class="form-grop">-->
-<!--        <input type="submit" value="Вход">-->
-<!--    </div>-->
     <span id="checkFormButton" class="data-forms">Получить все данные формы</span>
 </form>
 
+<div id="result"></div>
 <script>
     let form1 = document.forms.loginForm;
+    let result = document.querySelector('#result');
 
     document.querySelector('#checkFormButton').addEventListener('click', function () {
         for (let i = 0; i < form1.elements.length; i++) {
             const element = form1.elements[i];
-            console.log(element.name + " = " + element.value);
             //данные проверки выводяться по клику на сслыку а не на кнопку!
+            console.log(element.name + " = " + element.value);
+
+            let span = document.createElement('span');
+            span.innerHTML = element.name + " = " + element.value + " <br> ";
+            result.append(span);
         }
     });
 </script>
