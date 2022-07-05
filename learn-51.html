@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            max-width: 1100px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        @media (max-width: 750px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0;
+        }
+
+        .block-form {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .fd-col {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block-form label {
+            display: inline-block;
+            width: 140px;
+        }
+
+        .border-bottom {
+            border-bottom: 1px dotted grey;
+            padding-bottom: 5px;
+        }
+
+        .label-position {
+            width: auto !important;
+            margin-right: 10px;
+        }
+
+        form {
+            margin: 5px 0;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        .textarea-message {
+            width: 100%;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        table tr th {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center">Анкетування працівників поліції, щодо морально - психологічного клімату у колективі</h2>
+                <form action="#" method="post" name="staff-survey">
+                    <!-- Шановні колеги! -->
+                    <fieldset>
+                        <legend>Шановні колеги!</legend>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Виберіть наскільки спрацьований Ваш підрозділ:</label>
+                            <select name="" id="">
+                                <option value="100%">100%</option>
+                                <option value="75%">75%</option>
+                                <option value="75%">50%</option>
+                                <option value="75%">25%</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Відьмітьте наскільки психологічно сумісний Ваш
+                                підрозділ:</label>
+                            <select name="" id="">
+                                <option value="100%">100%</option>
+                                <option value="75%">75%</option>
+                                <option value="75%">50%</option>
+                                <option value="75%">25%</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Вкажіть, наскільки успішно виконує Ваш підрозділ поставлені
+                                завдання:</label>
+                            <select name="" id="">
+                                <option value="100%">100%</option>
+                                <option value="75%">75%</option>
+                                <option value="75%">50%</option>
+                                <option value="75%">25%</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Стан соціально-психологічного клімату в підрозділі Ви оцінюєте
+                                як:</label>
+                            <select name="" id="">
+                                <option value="optimal">Оптимальний</option>
+                                <option value="positive">Позитивний</option>
+                                <option value="unstable%">Нестійкий</option>
+                                <option value="negative">Негативний</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form fd-col  border-bottom">
+                            <label class="label-position">Чи відповідає робота в патрульній поліції Вашим потребам,
+                                можливостям, прагненням?</label>
+                            <div>
+                                <br>
+                                Так: <input type="radio" name="meets-your-aspirations" value="Yes" checked>
+                                Важко сказати: <input type="radio" name="meets-your-aspirations"
+                                    value="Hard-tell"><br><br>
+                                <textarea name="" id="" class="textarea-message" cols="auto" rows="5"
+                                    placeholder="Ні, тому що:">Ні, тому що: </textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="block-form fd-col">
+                            <label class="label-position">Назвіть 2 - 3 традиції, притаманні саме Вашому
+                                підрозділу:</label><br>
+
+                            <textarea name="" id="" class="textarea-message" cols="auto" rows="5"
+                                placeholder="Традиції, притаманні Вашому підрозділу:"></textarea>
+
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <!-- Які риси, на Вашу думку, характеризують Ваш підрозділ -->
+                    <fieldset>
+                        <legend>Які риси, на Вашу думку, характеризують Ваш підрозділ:</legend>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Висока якість виконання професійних завдать</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Розуміння усіма працівниками мети підрозділу:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Орієнтованість, на захист прав і свобод громадян, що
+                                звернулися по допомогу до поліції:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Престижність роботи саме у цьому підрозділі:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Висока згуртованість працівників:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Робота колективу постійно відбувається у напруженому,
+                                "авральному" режимі:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Працівники працюють лише на власний результат:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <textarea name="" id="" class="textarea-message" cols="auto" rows="5"
+                                placeholder="Ви можете вказати інше:"></textarea>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <!-- Як би Ви визначили стиль міжособистісних взаємин у Вашому підрозділі -->
+                    <fieldset>
+                        <legend>Як би Ви визначили стиль міжособистісних взаємин у Вашому підрозділі:</legend>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Співробітництво:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Взаємодопомога:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Фаворитизм:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Привілейованість окремих працівників:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Жорстка конкуренція:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Директивний:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <textarea name="" id="" class="textarea-message" cols="auto" rows="5"
+                                placeholder="Ви можете вказати інше:"></textarea>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <!-- Яким шляхом вирішуються внутрішні конфлікти у Вашому підрозділі? -->
+                    <fieldset>
+                        <legend>Яким шляхом вирішуються внутрішні конфлікти у Вашому підрозділі?</legend>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Уникнення (замовчування) проблеми:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Директивне (силове) рішення безпосереднього керівника
+                                підрозділу:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Вплив вищого керівництва:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Пристосування (істотні поступки однієї зі сторін):</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Розумний компроміс з дотриманням інтересів служби, керівництва
+                                і конкретного працівника:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <textarea name="" id="" class="textarea-message" cols="auto" rows="5"
+                                placeholder="Ви можете вказати інше:"></textarea>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <!-- Чи влаштовують Вас наступні аспекти діяльності Вашого колективу? -->
+                    <fieldset>
+                        <legend>Чи влаштовують Вас наступні аспекти діяльності Вашого колективу?</legend>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Задоволеність працею й належність до групи:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Низька плинність кадрів:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Низька численність працівників, які перебувають на
+                                лікарняних:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Високий рівень службової дисципліни:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Високий рівень корпоративної культури, налагодження зв'язку та
+                                ділові взаємовідносини:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Відсутність напруженості й конфліктності в колективі
+                                тощо:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <textarea name="" id="" class="textarea-message" cols="auto" rows="5"
+                                placeholder="Ви можете вказати інше:"></textarea>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <!-- Оцініть за 5-ти (п'яти) бальною шкалою ваших керівників? -->
+                    <legend>Оцініть за 5-ти (п'яти) бальною шкалою ваших керівників?</legend>
+                    <div class="block-form">
+                        <table border="1" style="width: 100%;">
+                            <tr>
+                                <th colspan="3">Оцінити за 5-ти (п'яти) бальною шкалою ваших керівників</th>
+                                <th>Командир батальйону</th>
+                                <th>Заступник командира батальйону</th>
+                                <th>Командир роти</th>
+                                <th>Заступник командира роти</th>
+                            </tr>
+                            <tr>
+                                <td class="text-center">№ з/п</td>
+                                <td class="text-center">Фактори оцінки</td>
+                                <td colspan="5" class="text-center">Елементи критеріїв</td>
+                            </tr>
+                            <tr>
+                            <tr>
+                                <td rowspan="5" class="text-center">1.</td>
+                                <td rowspan="5">Трудові якості</td>
+                                <td>1.1. Працездатність</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1.2. Діловитість</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>1.3. Творча ініціатива</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>1.4. Якість виконання роботи</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>1.5. Результативність праці</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+
+                            <tr>
+                            <tr>
+                                <td rowspan="3" class="text-center">2.</td>
+                                <td rowspan="3">Організаторські здібності</td>
+                                <td>2.1. Вміння організовувати людей, роботу</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2.2. Цілеспрямованість</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>2.3. Авторитет</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+
+                            <tr>
+                            <tr>
+                                <td rowspan="3" class="text-center">3.</td>
+                                <td rowspan="3">Професійна компетентність</td>
+                                <td>3.1. Знання своєї спеціальності, компетентність</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3.2. Володіння ередовими формами і методами роботи</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>3.3. Вирішення конфліктних ситуацій</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+
+                            <tr>
+                            <tr>
+                                <td rowspan="4" class="text-center">4.</td>
+                                <td rowspan="4">Особисті якості</td>
+                                <td>4.1. Чесність</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4.2. Принциповість</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>4.3. Готовність брати відповідальність на себе</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>4.4. Дисциплінованість</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+
+                            <tr>
+                            <tr>
+                                <td rowspan="4" class="text-center">5.</td>
+                                <td rowspan="4">Психологічна сумісність з колективом</td>
+                                <td>5.1. Уміння створити і підтримувати соціально-психологічний і моральний клімат у
+                                    колективі</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5.2. Терпимість</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>5.3. Самокритичність</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>5.4. Товариськість</td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                                <td> <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+
+                            <tr>
+                            <tr>
+                                <td class="text-center">6.</td>
+                                <td colspan="2">Контроль та перевірка діяльності підлеглих</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            </tr>
+
+                            <tr>
+                            <tr>
+                                <td class="text-center">7.</td>
+                                <td colspan="2">Заохочення діяльності підлеглих та подяка</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            </tr>
+
+                            <tr>
+                            <tr>
+                                <td class="text-center">8.</td>
+                                <td colspan="2">Ступінь оперативності надання інформації з важливих для Вас службових
+                                    питань</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="five">5</option>
+                                        <option value="foure">4</option>
+                                        <option value="three">3</option>
+                                        <option value="two">2</option>
+                                        <option value="one">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+
+                    <!-- Що Ви вважаєте найсильнішим фактором що приваблює працювати в поліції? -->
+                    <fieldset>
+                        <legend>Що Ви вважаєте найсильнішим фактором що приваблює працювати в поліції?</legend>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Турботу керівництва про працівників:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Можливість кар'єрного зростання:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Навчання і можливість підвищення кваліфікації:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Наявність нематеріальних стимулів:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Гарні стосунки в колективі:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Престижність професії:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <textarea name="" id="" class="textarea-message" cols="auto" rows="5"
+                                placeholder="Ви можете вказати інше:"></textarea>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <!-- Що зараз негативно впливає на ефективність Вашої діяльності? -->
+                    <fieldset>
+                        <legend>Що зараз негативно впливає на ефективність Вашої діяльності?</legend>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Фізична та психологічна перевтома:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Порушення антикорупційного законодавства працівниками:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Погана організація роботи керівниками:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Ризик зазнати травми чи поранення в ході службової
+                                діяльності:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Недостатнє матеріально - технічне забезпечення:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Не етична поведінка працівників:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Не знання законодавства, низька компетентність
+                                працівників:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Не спрацьованість колективу:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Стосунки, непорозуміння (ділові та особистістні) з
+                                керівництвом:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Непорозуміння, напруження, конфлікти з працівниками:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Неможливість влаштувати особисте життя через постійну
+                                зайнятість:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Недостатнє грошове забезпечення:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form border-bottom">
+                            <label class="label-position">Відсутність соціальних гарантій:</label>
+                            <select name="" id="">
+                                <option value="yes">Так</option>
+                                <option value="no">Ні</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <textarea name="" id="" class="textarea-message" cols="auto" rows="5"
+                                placeholder="Ви можете вказати інше:"></textarea>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <!-- Відправити -->
+                    <div class="block-form">
+                        <input type="submit" value="Відправити форму" class="btn-submit">
+                    </div><br><hr>
+                </form>
+                
+                <p>2022 рік</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
