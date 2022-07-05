@@ -10,6 +10,7 @@
     <style>
         * {
             box-sizing: border-box;
+            font-family: sans-serif;
         }
 
         body {
@@ -50,6 +51,10 @@
 
         .label-position {
             width: auto !important;
+        }
+
+        legend {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -104,8 +109,10 @@
                                 <option value="three">3</option>
                                 <option value="foure">4</option>
                             </select>
-                            <legend>УПП в Запорізькій області ДПП</legend><br>
+                            <br>
+                            <label class="label-position">УПП в Запорізькій області ДПП</label><br>
                         </div>
+                        <br>
                         <div class="block-form">
                             <label>Ваше ім'я:</label>
                             <input type="text" name="userName" placeholder="Ім'я">
