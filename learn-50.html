@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            max-width: 1100px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        @media (max-width: 750px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block-form label {
+            display: inline-block;
+            width: 140px;
+        }
+
+        .label-position {
+            width: auto !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Autorization -->
+                <form action="#" method="post" name="sign-in">
+                    <fieldset>
+                        <legend>Авторизація:</legend>
+
+                        <div class="block-form">
+                            <label>Ваш e-mail:</label>
+                            <input type="email" name="mail">
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <label>Пароль:</label>
+                            <input type="password" name="mail">
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <input type="submit" value="Відправити">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col">
+                <!-- Registration -->
+                <form action="#" method="post" name="sign-up">
+                    <fieldset>
+                        <legend>Регистрація:</legend>
+                        <div class="block-form">
+                            <label for="vzvod" class="label-position">Взвод:</label>
+                            <select name="" id="vzvod">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                            </select>
+
+                            <label for="rota" class="label-position">Рота:</label>
+                            <select name="" id="rota">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                            </select>
+
+                            <label for="bat" class="label-position">Батальйон:</label>
+                            <select name="" id="bat">
+                                <option value="one">1</option>
+                                <option value="two">2</option>
+                                <option value="three">3</option>
+                                <option value="foure">4</option>
+                            </select>
+                            <legend>УПП в Запорізькій області ДПП</legend><br>
+                        </div>
+                        <div class="block-form">
+                            <label>Ваше ім'я:</label>
+                            <input type="text" name="userName">
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <label>Ваше прізвище:</label>
+                            <input type="text" name="userSurname">
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <label>Ваш e-mail:</label>
+                            <input type="email" name="mail">
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <label>Пароль:</label>
+                            <input type="password" name="mail">
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <label>Ваша стать:</label>
+                            <select name="" id="">
+                                <option value="man">Чоловік</option>
+                                <option value="woomen">Жінка</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <label>Вік:</label>
+                            <select name="" id="">
+                                <option value="to-25">>25</option>
+                                <option value="25to35">25-35</option>
+                                <option value="36to45">36-45</option>
+                                <option value="45over">45&lt;</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <label>Стаж служби:</label>
+                            <select name="" id="">
+                                <option value="to-25">>1</option>
+                                <option value="25to35">1-5</option>
+                                <option value="36to45">5-10</option>
+                                <option value="36to45">10-20</option>
+                                <option value="45over">20&lt;</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="block-form">
+                            <input type="submit" value="Відправити">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
