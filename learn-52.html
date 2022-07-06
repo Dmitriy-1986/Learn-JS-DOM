@@ -12,12 +12,15 @@
 <button id="red">color red</button>
 <script>
     document.querySelector('#red').addEventListener('click', () => {
-      localStorage.setItem('data', 5);
-      console.log(localStorage.getItem('data'));
-      document.body.innerHTML = localStorage.getItem('data');
+        //setItem
+        localStorage.setItem('data', 5);   
+        //getItem
+        document.body.innerHTML = localStorage.getItem('data');
 
-      localStorage.setItem('color-red', 'red');
-      document.body.style.color = localStorage.getItem('color-red');
+        //setItem
+        localStorage.setItem('color-red', 'red');   
+        //getItem
+        document.body.style.color = localStorage.getItem('color-red');
     })
 </script>
 </body>
