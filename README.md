@@ -108,3 +108,4 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-53.html">53-localStorage count по клику кнопки - Java Script</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-53.html">Code</a><br>
 
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-54.html">54-Корзина товара на  Java Script</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-54.html">Code</a><br>
