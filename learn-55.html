@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h2>try catch</h2>
+<script>
+    let jsonWithError = '{"name" : "Ivan", "age" = 20}';
+    let jsonOk = '{"name" : "Ivan", "age" : 20}';
+
+    try {
+        console.log('Начало блока try');
+        let obj = JSON.parse(jsonWithError);
+        console.log(obj);
+        console.log('Конец блока try');
+    } catch (e) {
+        console.warn('Блок catch');
+        console.error(e.name);
+        console.error(e.message);
+    }
+    console.log('Конец сценария');
+</script>
+</body>
+</html>
