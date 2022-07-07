@@ -105,3 +105,6 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-51.html">51-Форма заповнення анкети</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-51.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-52.html">52-localStorage - Java Script</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-52.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-53.html">53-localStorage count по клику кнопки - Java Script</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-53.html">Code</a><br>
+
