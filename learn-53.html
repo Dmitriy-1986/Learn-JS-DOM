@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">Click</button>
+<button id="hiddenResult">Hidden</button>
+<div id="result"></div>
+<script>
+    let btn = document.querySelector('#btn');
+    let result = document.querySelector('#result');
+    let hiddenResult = document.querySelector('#hiddenResult');
+
+    btn.addEventListener('click', btnClick);
+    result.innerHTML += localStorage.getItem('string')
+
+
+    let count = 0;
+    function btnClick() {
+        count++
+        let testCount = ' test ' + count + ' ';
+
+        localStorage.setItem('string', testCount.toString());
+        result.innerHTML += localStorage.getItem('string')
+    }
+
+    hiddenResult.addEventListener('click', hiddenBlock);
+
+    function hiddenBlock() {
+        result.classList.toggle('hidden')
+    }
+
+</script>
+</body>
+</html>
