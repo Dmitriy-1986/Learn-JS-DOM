@@ -111,3 +111,5 @@
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-54.html">54-Корзина товара на  Java Script</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-54.html">Code</a><br>
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-55.html">55-Исключения на Java Script - try, catch</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-55.html">Code</a><br>
+
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-56.html">56-Получение всехфрагментов кода на странице с помощью - getElementsByTagName()</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-56.html">Code</a><br>
