@@ -116,4 +116,4 @@
 
 ><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-57.html">57-добавление класса с удалением старых классов CSS и наоборот добавление ласса при этом оставить старые классы на месте</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-57.html">Code</a><br>
 
-
+><a href="https://dmitriy-1986.github.io/Learn-JS-DOM/learn-58.html">58-Событие по наведению мыши в JS</a> | <a href="https://github.com/Dmitriy-1986/Learn-JS-DOM/blob/main/learn-58.html">Code</a><br>
