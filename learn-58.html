@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .block {
+            height: 350px;
+            width: 350px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+<div class="block"></div>
+
+<script>
+    let block = document.querySelector('.block');
+    block.addEventListener('mouseover', function () {
+        block.style.background = 'aqua';
+    });
+
+    block.addEventListener('mouseout', function () {
+        block.style.background = 'blueviolet';
+    })
+
+    block.onclick = showMessage;
+
+    function showMessage() {
+        alert('Hello world!');
+    }
+
+</script>
+</body>
+</html>
