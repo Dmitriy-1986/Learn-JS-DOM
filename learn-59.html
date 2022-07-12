@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+<!--HTML-->
+
+
+<!--JAVA SCRIPT-->
+<script>
+    let array = ['Test content - 1', 'Test content - 2', 'Test content - 3'];
+    let array2 = ['Test content - 2.1', 'Test content - 2.2', 'Test content - 2.3'];
+
+    function makeCounter(data) {
+        for (let i = 0; i < data.length; i++) {
+            let div = document.createElement('div');
+            document.body.append(div);
+            div.innerHTML = increment() + data[i];
+        }
+    }
+
+    let counter = 0;
+
+    function increment() {
+        return counter += 1;
+    }
+
+    makeCounter(array);
+    makeCounter(array2);
+
+</script>
+
+</body>
+</html>
